@@ -7,21 +7,34 @@
 //
 
 import UIKit
+import CoreData
+
+
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
+    var products: [Product] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        sampleProduct()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func sampleProduct () {
+        let context = (UIApplication.sharedApplication().delegate! as! AppDelegate)
+        let product = NSEntityDescription.insertNewObjectForEntityForName("product", inManagedObjectContext: context) as! Products
+        product.title = "Running Shoes"
+        
+        do {
+            try context.save()
+        } catch {
+            
+        }
+        
     }
-
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -30,7 +43,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel?.text = "Saucony Shoe"
+        cell.textLabel?.text = "Saucony Shoes"
         
         return cell
         
@@ -42,7 +55,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
 //    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-//        <#code#>
+//        
 //    }
 
 
