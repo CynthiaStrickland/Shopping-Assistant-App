@@ -1,5 +1,5 @@
 //
-//  Products+CoreDataProperties.swift
+//  Product+CoreDataProperties.swift
 //  Shopping Assistant App Tutorial
 //
 //  Created by Cynthia Whitlatch on 3/5/16.
@@ -12,7 +12,7 @@
 import Foundation
 import CoreData
 
-extension Products {
+extension Product {
 
     @NSManaged var title: String?
     @NSManaged var store: String?

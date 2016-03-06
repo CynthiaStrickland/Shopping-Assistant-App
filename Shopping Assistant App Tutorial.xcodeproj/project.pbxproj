@@ -15,11 +15,7 @@
 		3DCB87901C8B756E0095C730 /* Shopping_Assistant_App_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB878F1C8B756E0095C730 /* Shopping_Assistant_App_TutorialTests.swift */; };
 		3DCB879B1C8B756E0095C730 /* Shopping_Assistant_App_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB879A1C8B756E0095C730 /* Shopping_Assistant_App_TutorialUITests.swift */; };
 		3DCB87AA1C8B7B110095C730 /* ShoppingAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB87A81C8B7B110095C730 /* ShoppingAssistant.xcdatamodeld */; };
-		3DCB87B41C8B7BD40095C730 /* Products+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB87B21C8B7BD40095C730 /* Products+CoreDataProperties.swift */; };
-		3DCB87B51C8B7BD40095C730 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB87B31C8B7BD40095C730 /* Products.swift */; };
 		3DCB87BC1C8B7CFA0095C730 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCB87BB1C8B7CFA0095C730 /* CoreData.framework */; };
-		3DCB87BE1C8B7F6C0095C730 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB87BD1C8B7F6C0095C730 /* CoreDataHelper.swift */; };
-		3DCB87C21C8B7FC00095C730 /* swift_coredata_sample.md in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB87C11C8B7FC00095C730 /* swift_coredata_sample.md */; };
 		3DCB87D41C8B7FDB0095C730 /* img00.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB87C31C8B7FDB0095C730 /* img00.png */; };
 		3DCB87D51C8B7FDB0095C730 /* img01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB87C41C8B7FDB0095C730 /* img01.png */; };
 		3DCB87D61C8B7FDB0095C730 /* img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB87C51C8B7FDB0095C730 /* img02.png */; };
@@ -37,6 +33,8 @@
 		3DCB87E21C8B7FDB0095C730 /* img14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB87D11C8B7FDB0095C730 /* img14.png */; };
 		3DCB87E31C8B7FDB0095C730 /* img15.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB87D21C8B7FDB0095C730 /* img15.png */; };
 		3DCB87E41C8B7FDB0095C730 /* img16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB87D31C8B7FDB0095C730 /* img16.png */; };
+		3DCB881F1C8B884A0095C730 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB881D1C8B884A0095C730 /* Product+CoreDataProperties.swift */; };
+		3DCB88201C8B884A0095C730 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB881E1C8B884A0095C730 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,11 +69,7 @@
 		3DCB879A1C8B756E0095C730 /* Shopping_Assistant_App_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_Assistant_App_TutorialUITests.swift; sourceTree = "<group>"; };
 		3DCB879C1C8B756E0095C730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DCB87A91C8B7B110095C730 /* ShoppingAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingAssistant.xcdatamodel; sourceTree = "<group>"; };
-		3DCB87B21C8B7BD40095C730 /* Products+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Products+CoreDataProperties.swift"; path = "../Products+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		3DCB87B31C8B7BD40095C730 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Products.swift; path = ../Products.swift; sourceTree = "<group>"; };
 		3DCB87BB1C8B7CFA0095C730 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		3DCB87BD1C8B7F6C0095C730 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
-		3DCB87C11C8B7FC00095C730 /* swift_coredata_sample.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = swift_coredata_sample.md; sourceTree = "<group>"; };
 		3DCB87C31C8B7FDB0095C730 /* img00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img00.png; sourceTree = "<group>"; };
 		3DCB87C41C8B7FDB0095C730 /* img01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img01.png; sourceTree = "<group>"; };
 		3DCB87C51C8B7FDB0095C730 /* img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img02.png; sourceTree = "<group>"; };
@@ -93,6 +87,8 @@
 		3DCB87D11C8B7FDB0095C730 /* img14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img14.png; sourceTree = "<group>"; };
 		3DCB87D21C8B7FDB0095C730 /* img15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img15.png; sourceTree = "<group>"; };
 		3DCB87D31C8B7FDB0095C730 /* img16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img16.png; sourceTree = "<group>"; };
+		3DCB881D1C8B884A0095C730 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataProperties.swift"; path = "../Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3DCB881E1C8B884A0095C730 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ../Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +120,6 @@
 		3DCB876E1C8B756E0095C730 = {
 			isa = PBXGroup;
 			children = (
-				3DCB87BB1C8B7CFA0095C730 /* CoreData.framework */,
 				3DCB877A1C8B756E0095C730 /* AppDelegate.swift */,
 				3DCB87791C8B756E0095C730 /* Shopping Assistant App Tutorial */,
 				3DCB878E1C8B756E0095C730 /* Shopping Assistant App TutorialTests */,
@@ -202,8 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				3DCB87E51C8B7FE10095C730 /* Images */,
-				3DCB87C11C8B7FC00095C730 /* swift_coredata_sample.md */,
 				3DCB87811C8B756E0095C730 /* Assets.xcassets */,
+				3DCB87BB1C8B7CFA0095C730 /* CoreData.framework */,
 				3DCB87861C8B756E0095C730 /* Info.plist */,
 			);
 			name = "SUPPORTING FILES";
@@ -213,10 +208,9 @@
 		3DCB87BA1C8B7C200095C730 /* CORE DATA */ = {
 			isa = PBXGroup;
 			children = (
+				3DCB881D1C8B884A0095C730 /* Product+CoreDataProperties.swift */,
+				3DCB881E1C8B884A0095C730 /* Product.swift */,
 				3DCB87A81C8B7B110095C730 /* ShoppingAssistant.xcdatamodeld */,
-				3DCB87BD1C8B7F6C0095C730 /* CoreDataHelper.swift */,
-				3DCB87B21C8B7BD40095C730 /* Products+CoreDataProperties.swift */,
-				3DCB87B31C8B7BD40095C730 /* Products.swift */,
 			);
 			name = "CORE DATA";
 			sourceTree = "<group>";
@@ -393,11 +387,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCB87BE1C8B7F6C0095C730 /* CoreDataHelper.swift in Sources */,
 				3DCB87AA1C8B7B110095C730 /* ShoppingAssistant.xcdatamodeld in Sources */,
-				3DCB87B41C8B7BD40095C730 /* Products+CoreDataProperties.swift in Sources */,
-				3DCB87C21C8B7FC00095C730 /* swift_coredata_sample.md in Sources */,
-				3DCB87B51C8B7BD40095C730 /* Products.swift in Sources */,
+				3DCB881F1C8B884A0095C730 /* Product+CoreDataProperties.swift in Sources */,
+				3DCB88201C8B884A0095C730 /* Product.swift in Sources */,
 				3DCB877D1C8B756E0095C730 /* ViewController.swift in Sources */,
 				3DCB877B1C8B756E0095C730 /* AppDelegate.swift in Sources */,
 			);
@@ -546,7 +538,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Shopping-Assistant-App-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Shopping Assistant App Tutorial-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -560,7 +551,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Shopping-Assistant-App-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Shopping Assistant App Tutorial-Bridging-Header.h";
 			};
 			name = Release;
 		};

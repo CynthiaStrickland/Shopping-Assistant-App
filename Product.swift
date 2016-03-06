@@ -1,5 +1,5 @@
 //
-//  Products.swift
+//  Product.swift
 //  Shopping Assistant App Tutorial
 //
 //  Created by Cynthia Whitlatch on 3/5/16.
@@ -9,9 +9,7 @@
 import Foundation
 import CoreData
 
-@objc(Products)
-class Products: NSManagedObject {
+class Product: NSManagedObject {
 
-// Insert code here to add functionality to your managed object subclass
 
 }
