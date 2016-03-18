@@ -21,6 +21,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
 
         sampleProduct()
+        saveData()
+        
         let context = (UIApplication.sharedApplication().delegate! as! AppDelegate).managedObjectContext
         let request = NSFetchRequest(entityName: "Product")
         var results : [AnyObject]?
@@ -32,22 +34,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         
         if results != nil {
-            self.products = results! as! [Product]
+            self.products = results! as! [NSManagedObject]
         }
     }
 
-    func sampleProduct () {
-//        let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
-//        let managedObjectContext = delegate.managedObjectContext
-//        let entity = NSEntityDescription.entityForName("Product", inManagedObjectContext: managedObjectContext)
-//        let managedObject = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedObjectContext)
-//        managedObject.setValue("Running Shoes", forKey: "title")
-//        
-//        do {
-//            try managedObjectContext.save()
-//        } catch _ {
-//            print("Error")
-//        }
+    func sampleProduct() {
         
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let managedContext = appDelegate.managedObjectContext
@@ -62,15 +53,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
         
-    func saveData(){
-        // SAVE DATA
+    func saveData() {
         
         let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let managedObjectContext = delegate.managedObjectContext
-        let entity = NSEntityDescription.entityForName("Devices", inManagedObjectContext: managedObjectContext)
+        let entity = NSEntityDescription.entityForName("Product", inManagedObjectContext: managedObjectContext)
         let managedObject = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedObjectContext)
-        managedObject.setValue("iPhone \(products.count + 1)", forKey: "name")
-        managedObject.setValue("Apple", forKey: "company")
+        
+        managedObject.setValue("Adidas \(products.count + 1)", forKey: "title")
+        managedObject.setValue("Shoe Store", forKey: "store")
         
         do {
             try managedObjectContext.save()
@@ -95,7 +86,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let aCell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
         let person = products[indexPath.row]
-        aCell.textLabel?.text = person.valueForKey("name") as? String
+        aCell.textLabel?.text = person.valueForKey("title") as? String
         
         return aCell
     }
