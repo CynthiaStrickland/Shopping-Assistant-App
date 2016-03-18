@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D9DDFD71C9C87D800D23B7C /* nike.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9DDFD61C9C87D800D23B7C /* nike.png */; };
+		3D9DDFD91C9C8D2600D23B7C /* Detail View ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DDFD81C9C8D2600D23B7C /* Detail View ControllerViewController.swift */; };
 		3DCB877B1C8B756E0095C730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB877A1C8B756E0095C730 /* AppDelegate.swift */; };
 		3DCB877D1C8B756E0095C730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB877C1C8B756E0095C730 /* ViewController.swift */; };
 		3DCB87801C8B756E0095C730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB877E1C8B756E0095C730 /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D9DDFD61C9C87D800D23B7C /* nike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nike.png; sourceTree = "<group>"; };
+		3D9DDFD81C9C8D2600D23B7C /* Detail View ControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Detail View ControllerViewController.swift"; sourceTree = "<group>"; };
 		3DCB87771C8B756E0095C730 /* Shopping Assistant App Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping Assistant App Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCB877A1C8B756E0095C730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Shopping Assistant App Tutorial/AppDelegate.swift"; sourceTree = "<group>"; };
 		3DCB877C1C8B756E0095C730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				3DCB877C1C8B756E0095C730 /* ViewController.swift */,
+				3D9DDFD81C9C8D2600D23B7C /* Detail View ControllerViewController.swift */,
 			);
 			name = CONTROLLERS;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 		3DCB87B91C8B7BF70095C730 /* SUPPORTING FILES */ = {
 			isa = PBXGroup;
 			children = (
+				3D9DDFD61C9C87D800D23B7C /* nike.png */,
 				3DCB87E51C8B7FE10095C730 /* Images */,
 				3DCB87811C8B756E0095C730 /* Assets.xcassets */,
 				3DCB87BB1C8B7CFA0095C730 /* CoreData.framework */,
@@ -360,6 +366,7 @@
 				3DCB87E31C8B7FDB0095C730 /* img15.png in Resources */,
 				3DCB87D81C8B7FDB0095C730 /* img04.png in Resources */,
 				3DCB87E01C8B7FDB0095C730 /* img12.png in Resources */,
+				3D9DDFD71C9C87D800D23B7C /* nike.png in Resources */,
 				3DCB87801C8B756E0095C730 /* Main.storyboard in Resources */,
 				3DCB87D61C8B7FDB0095C730 /* img02.png in Resources */,
 				3DCB87D91C8B7FDB0095C730 /* img05.png in Resources */,
@@ -389,6 +396,7 @@
 			files = (
 				3DCB87AA1C8B7B110095C730 /* ShoppingAssistant.xcdatamodeld in Sources */,
 				3DCB881F1C8B884A0095C730 /* Product+CoreDataProperties.swift in Sources */,
+				3D9DDFD91C9C8D2600D23B7C /* Detail View ControllerViewController.swift in Sources */,
 				3DCB88201C8B884A0095C730 /* Product.swift in Sources */,
 				3DCB877D1C8B756E0095C730 /* ViewController.swift in Sources */,
 				3DCB877B1C8B756E0095C730 /* AppDelegate.swift in Sources */,
@@ -621,6 +629,7 @@
 				3DCB87A11C8B756E0095C730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DCB87A21C8B756E0095C730 /* Build configuration list for PBXNativeTarget "Shopping Assistant App TutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -629,6 +638,7 @@
 				3DCB87A41C8B756E0095C730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DCB87A51C8B756E0095C730 /* Build configuration list for PBXNativeTarget "Shopping Assistant App TutorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -637,6 +647,7 @@
 				3DCB87A71C8B756E0095C730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

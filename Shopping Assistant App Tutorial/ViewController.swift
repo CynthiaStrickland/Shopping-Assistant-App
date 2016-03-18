@@ -60,8 +60,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let entity = NSEntityDescription.entityForName("Product", inManagedObjectContext: managedObjectContext)
         let managedObject = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedObjectContext)
         
-        managedObject.setValue("Adidas \(products.count + 1)", forKey: "title")
+        managedObject.setValue("Nike \(products.count + 1)", forKey: "title")
         managedObject.setValue("Shoe Store", forKey: "store")
+        
+        let image = UIImage(named: "nike")
+        let imageData = NSData(data: UIImageJPEGRepresentation(image!, 1.0)!)
+        managedObject.setValue(imageData, forKey: "image")
         
         do {
             try managedObjectContext.save()
@@ -87,8 +91,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let person = products[indexPath.row]
         aCell.textLabel?.text = person.valueForKey("title") as? String
+        aCell.imageView?.image = UIImage(named: "nike")
         
         return aCell
+    }
+    
+    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
+
+        self.performSegueWithIdentifier("detail", sender: self)
+        
+    
+    
+    
     }
     
     func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
