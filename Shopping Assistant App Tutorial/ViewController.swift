@@ -9,8 +9,6 @@
 import UIKit
 import CoreData
 
-
-
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, NSFetchedResultsControllerDelegate {
 
     @IBOutlet weak var tableView: UITableView!
@@ -82,11 +80,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-//        let cell = UITableViewCell()
-//        let product = self.products[indexPath.row]
-//        return cell
-//        
-//    }
+
         let aCell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
         let person = products[indexPath.row]
@@ -97,12 +91,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
-
         self.performSegueWithIdentifier("detail", sender: self)
-        
-    
-    
-    
     }
     
     func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {

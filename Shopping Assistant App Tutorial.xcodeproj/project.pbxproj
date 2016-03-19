@@ -59,17 +59,17 @@
 /* Begin PBXFileReference section */
 		3D9DDFD61C9C87D800D23B7C /* nike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nike.png; sourceTree = "<group>"; };
 		3D9DDFD81C9C8D2600D23B7C /* Detail View ControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Detail View ControllerViewController.swift"; sourceTree = "<group>"; };
-		3DCB87771C8B756E0095C730 /* Shopping Assistant App Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping Assistant App Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9DDFDA1C9CCDA700D23B7C /* Shopping Assistant App Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping Assistant App Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCB877A1C8B756E0095C730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Shopping Assistant App Tutorial/AppDelegate.swift"; sourceTree = "<group>"; };
 		3DCB877C1C8B756E0095C730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DCB877F1C8B756E0095C730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DCB87811C8B756E0095C730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DCB87841C8B756E0095C730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DCB87861C8B756E0095C730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DCB878B1C8B756E0095C730 /* Shopping Assistant App TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping Assistant App TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCB878B1C8B756E0095C730 /* Shopping Assistant App TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Shopping Assistant App TutorialTests.xctest"; path = "/Users/cynthiawhitlatch/Desktop/Shopping Assistant App Tutorial/build/Debug-iphoneos/Shopping Assistant App TutorialTests.xctest"; sourceTree = "<absolute>"; };
 		3DCB878F1C8B756E0095C730 /* Shopping_Assistant_App_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_Assistant_App_TutorialTests.swift; sourceTree = "<group>"; };
 		3DCB87911C8B756E0095C730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DCB87961C8B756E0095C730 /* Shopping Assistant App TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping Assistant App TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCB87961C8B756E0095C730 /* Shopping Assistant App TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Shopping Assistant App TutorialUITests.xctest"; path = "/Users/cynthiawhitlatch/Desktop/Shopping Assistant App Tutorial/build/Debug-iphoneos/Shopping Assistant App TutorialUITests.xctest"; sourceTree = "<absolute>"; };
 		3DCB879A1C8B756E0095C730 /* Shopping_Assistant_App_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_Assistant_App_TutorialUITests.swift; sourceTree = "<group>"; };
 		3DCB879C1C8B756E0095C730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DCB87A91C8B7B110095C730 /* ShoppingAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingAssistant.xcdatamodel; sourceTree = "<group>"; };
@@ -128,20 +128,10 @@
 				3DCB87791C8B756E0095C730 /* Shopping Assistant App Tutorial */,
 				3DCB878E1C8B756E0095C730 /* Shopping Assistant App TutorialTests */,
 				3DCB87991C8B756E0095C730 /* Shopping Assistant App TutorialUITests */,
-				3DCB87781C8B756E0095C730 /* Products */,
 				3DCB87B91C8B7BF70095C730 /* SUPPORTING FILES */,
 				3DCB87B81C8B7BEE0095C730 /* MODELS */,
+				3D9DDFDA1C9CCDA700D23B7C /* Shopping Assistant App Tutorial.app */,
 			);
-			sourceTree = "<group>";
-		};
-		3DCB87781C8B756E0095C730 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3DCB87771C8B756E0095C730 /* Shopping Assistant App Tutorial.app */,
-				3DCB878B1C8B756E0095C730 /* Shopping Assistant App TutorialTests.xctest */,
-				3DCB87961C8B756E0095C730 /* Shopping Assistant App TutorialUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		3DCB87791C8B756E0095C730 /* Shopping Assistant App Tutorial */ = {
@@ -262,7 +252,7 @@
 			);
 			name = "Shopping Assistant App Tutorial";
 			productName = "Shopping Assistant App Tutorial";
-			productReference = 3DCB87771C8B756E0095C730 /* Shopping Assistant App Tutorial.app */;
+			productReference = 3D9DDFDA1C9CCDA700D23B7C /* Shopping Assistant App Tutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3DCB878A1C8B756E0095C730 /* Shopping Assistant App TutorialTests */ = {
@@ -333,7 +323,7 @@
 				Base,
 			);
 			mainGroup = 3DCB876E1C8B756E0095C730;
-			productRefGroup = 3DCB87781C8B756E0095C730 /* Products */;
+			productRefGroup = 3DCB876E1C8B756E0095C730;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -543,6 +533,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Shopping Assistant App Tutorial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Shopping-Assistant-App-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -556,6 +547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Shopping Assistant App Tutorial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Shopping-Assistant-App-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";

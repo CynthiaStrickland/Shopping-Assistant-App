@@ -1,6 +1,6 @@
 
 //
-//  Detail View ControllerViewController.swift
+//  DetailViewController.swift
 //  Shopping Assistant App Tutorial
 //
 //  Created by Cynthia Whitlatch on 3/18/16.
@@ -9,12 +9,12 @@
 
 import UIKit
 
-class Detail_View_ControllerViewController: UIViewController {
+class DetailViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView?    
-    @IBOutlet weak var shoe: UILabel!
-
-    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var shoe: UILabel?
+    @IBOutlet weak var name: UILabel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

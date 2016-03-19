@@ -29,6 +29,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Xla-Jt-i4R" kind="show" id="nCt-u2-cMs"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -52,17 +55,16 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Sc8-gU-Dj2" id="E1E-Yy-IJa"/>
-                        <segue destination="Xla-Jt-i4R" kind="show" identifier="detail" id="jBd-4L-hIu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="718.5" y="-328.5"/>
         </scene>
-        <!--Detail View Controller View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="MKJ-ph-O8V">
             <objects>
-                <viewController id="Xla-Jt-i4R" customClass="Detail_View_ControllerViewController" customModule="Shopping_Assistant_App_Tutorial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Xla-Jt-i4R" customClass="DetailViewController" customModule="Shopping_Assistant_App_Tutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y3X-gm-36W"/>
                         <viewControllerLayoutGuide type="bottom" id="4oR-Dy-Bqd"/>
@@ -71,7 +73,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byV-Bu-eLc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byV-Bu-eLc">
                                 <rect key="frame" x="20" y="152" width="335" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="ITj-eX-dgT"/>
@@ -80,7 +82,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCD-JN-Gkc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCD-JN-Gkc">
                                 <rect key="frame" x="20" y="193" width="335" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -109,10 +111,9 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="imageView" destination="Vle-eq-Vjv" id="kd3-26-KVg"/>
-                        <outlet property="name" destination="YCD-JN-Gkc" id="pFw-dB-j5M"/>
-                        <outlet property="shoe" destination="YCD-JN-Gkc" id="afW-98-L8K"/>
-                        <outlet property="title" destination="YCD-JN-Gkc" id="r6B-oO-UiW"/>
+                        <outlet property="imageView" destination="Vle-eq-Vjv" id="7MZ-l9-VhW"/>
+                        <outlet property="name" destination="YCD-JN-Gkc" id="u9u-jR-6fF"/>
+                        <outlet property="shoe" destination="byV-Bu-eLc" id="9s7-TD-DiI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P1e-EE-0bB" userLabel="First Responder" sceneMemberID="firstResponder"/>
